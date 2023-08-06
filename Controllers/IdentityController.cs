@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace YouTubeClone.Controllers;
 
-[Route("[controller]")]
+[Route("api/[controller]")]
 [Authorize]
 public class IdentityController : ControllerBase
 {
